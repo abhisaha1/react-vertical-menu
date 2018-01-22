@@ -3,6 +3,9 @@
 Creates a vertical menu with children
 
 ```
+import Menu from "react-vertical-menu";
+require("/node_module/react-vertical-menu/dist/style.css");
+
 const data = [
     {
         id: 1,
