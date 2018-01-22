@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+// Load up the application styles
+require("../styles/application.css");
 
 class Menu extends Component {
     constructor(props) {

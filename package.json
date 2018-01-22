@@ -1,6 +1,6 @@
 {
     "name": "react-vertical-menu",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "Simple and lightweight React menu",
     "main": "src/Menu.js",
     "scripts": {

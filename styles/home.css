@@ -1,0 +1,54 @@
+.rvm--parent {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.rvm--parent ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rvm--parent .nav-list {
+    margin-top: 4px;
+}
+
+.rvm--parent .menu-icon {
+    padding-right: 16px;
+}
+
+.rvm--parent .rvm--has-sub .nav {
+    height: 0px;
+    visibility: hidden;
+    padding-left: 20px;
+}
+
+.rvm--parent .rvm--has-sub .nav.in {
+    height: auto;
+    visibility: visible;
+}
+
+.rvm--parent .rvm--has-sub .tree-node-leaf {
+    padding: 4px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.rvm--parent .rvm--has-sub .tree-node-leaf a {
+    flex: 1;
+}
+
+.rvm--parent a {
+    text-decoration: none;
+    width: 100%;
+}
+
+.rvm--parent .tree-node-leaf {
+    padding: 4px 0px;
+}
+
+.rvm--parent .menu-icon:before {
+    padding-right: 8px;
+}
