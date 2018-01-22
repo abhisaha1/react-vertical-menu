@@ -8,13 +8,12 @@ const stylesheetsLoaders = [
         loader: "css-loader",
         options: {
             modules: true,
-            localIdentName: "[path]-[local]-[hash:base64:3]",
             sourceMap: true
         }
     }
 ];
 
-const stylesheetsPlugin = new ExtractTextPlugin("[hash].css");
+const stylesheetsPlugin = new ExtractTextPlugin("style.css");
 
 const uglifyPlugin = new webpack.optimize.UglifyJsPlugin({
     compress: { warnings: false }

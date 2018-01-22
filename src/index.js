@@ -6,6 +6,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 
 import Menu from "./Menu.js";
+// import Menu from "react-vertical-menu";
 
 const data = [
     {
